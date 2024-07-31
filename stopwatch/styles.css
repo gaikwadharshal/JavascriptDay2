@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  
+  .stopwatch {   
+    text-align: center;
+    outline: auto;
+    background-color: rgb(153, 157, 157);
+  }
+  
+  #display {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  button#start {
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+  }
+  
+  button#stop {
+    background-color: #f60b0b; /* red background color */
+    color: white;
+  }
+  button#reset {
+    background-color: #3e03e0; /* blue background color */
+    color: white;
+  }
